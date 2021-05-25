@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stage</title>
     <link href="./css/header.css" rel="stylesheet">
+    <link href="./css/stage.css" rel="stylesheet">
 
 </head>
 <body>
     <nav id="bandeau">
-        <ul>
+        <ul id="haut">
             <li><a href="./index.html">Accueil</a></li>
             <li><a href="./stage.html">Stage</a></li>
             <li><a href="./competences.html">Compétences</a></li>
@@ -18,5 +19,107 @@
             <li><a href="./veille.html">Veille Juridique</a></li>
         </ul>
     </nav>
+
+    <h1>Stage</h1>
+    
+    <p  class="global-text">
+        J'ai effectué mon stage dans l'entreprise <b>Unista</b>, à <b>Treize-Septiers</b>, dans le service informatique. Elle est une entreprise de conception et de fabrication de machines industrielles.
+        <br>J'ai pu y apprendre l'intégration des différents métiers entre eux, et notamment celui de développeur qui peut s'articuler de difféntes manières et prendre des formes très variées.
+        <br>Je vais faire ici une présentation rapide pour montrer ce que ce stage a pu m'opporter en terme de compétences, pour le métier de développeur ( et principalement dans le web ).
+    </p>
+        
+    <div id="sommaire_stage">
+        <h4 id="sommaire">Sommaire :</h4>
+        <ul>
+            <li><a href="#entreprise">L'entreprise</a></li>
+            <li><a href="#evolvePHP">Compétences php</a></li>
+            <li><a href="#learnSVG">Compétences svg</a></li>
+            <li><a href="#learnJS">Compétences JavaScript</a></li>
+            <li><a href="#evolveCSS">Quelques compétences CSS</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+    </div>
+
+    <div id="location">
+        <h3 id="entreprise">Présentation de l'entreprise :</h3>
+        <div id="presentation_unista">
+            <img id="unista-locaux" src="./images/Images Stage Unista/unista-locaux.jpg"/>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5443.694292516401!2d-1.2215556798068732!3d46.98433682689656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4806774521dffce7%3A0x2254a316e0e51b34!2sUNISTA!5e0!3m2!1sfr!2sfr!4v1621600056217!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <div id="compPHP">
+        <h3 id="evolvePHP">L'évolution de mes compétences en php</h3>
+        <p class="global-text">Le site a été créé sur la base d'un modèle MVC, avec inclusion et PDO pour la base de données.</p>
+        <h4>Récupération dynamique des données :</h4>
+        <div id="recupDonnees">
+            <!-- Une autre image montrant le dynamisme dû à php -->
+            <!-- Avec un commentaire pour expliquer la photo -->
+        </div>
+        <h4>Récupération des données dans la BDD :</h4>
+        <div id="imgPHP">
+            <div id="first_imgPHP">
+                <img id="cartonVerif1" src="./images/Images Stage Unista/cartonVerif1.PNG" />
+                <p class="particular-text">
+                    Avec le formulaire suivant, l'utilisateur rentre ses données, qui seront ensuite envoyées par requête à la BBD
+                    <br>Le résultat est ci-contre
+                </p>
+            </div>
+            <div id="snd_imgPHP">
+                <img id="remplissageBDD" src="./images/Images Stage Unista/remplissageBDD.PNG"/>
+                <p class="particular-text">Voici le résultat de la requête avec tout les champs remplis en fonction de la saisie de l'utilisateur</p>
+            </div>
+        </div>
+    </div>
+    <div id="compSVG">
+        <h3 id="learnSVG">Apprentissage du SVG</h3>
+
+        <p class="global-text">
+            Tout d'abord, le <b>SVG</b> est un outil de dessin vectoriel, basé sur <b>XML</b>. C'est-à-dire qu'il permet la réalisation de dessins sous forme vectoriel avec une implémentation dans html.
+            <br>
+            Mon maître souhaitait que l'on récupère les choix de positions désigné par l'utilisateur grâce à un schéma SVG représentant la structure de la machine et de tout ce qui lui est associé. 
+            <br>
+            Ce qui permet d'avoir un rendu tel que les images ci-dessous :
+        </p>
+        <div id="imgSVG">
+            <img id="pos-carton" src="./images/Images Stage Unista/exempleSVG.PNG"/>
+            <p>L'image ci-dessus est un aperçu.<br>Ce SVG permet de déplacer des icônes pour schématiser la position de carton sur une pallette.</p>
+        </div>
+    </div>
+    <div id="compJS">
+        <h3 id="learnJS">Apprentissage du JavaScript</h3>
+        <div id="imgJS">
+            <div id="first_imgJS">
+                <img class="palettisation" src="./images/Images Stage Unista/palettisationJS.PNG" />
+            </div>
+            <div id="snd_imgJS">
+                <img class="palettisation" src="./images/Images Stage Unista/palettisationJS2.PNG" />                
+            </div>
+        </div>
+        <p class="particular-text">
+            Le tableau se voyait ajouter ou retirer des colonnes en fonction du nombre saisie par l'utilisateur, ici en haut à gauche de l'image.
+            Ceci était fait grâce à un code en JavaScript.
+        </p>
+        <p class="particular-text">Les mouvements des blocs <b>SVG</b> sont aussi effectué en <b>JavaScript</b>, et grâce à <b>PHP</b>, on récupère les dimensions voulu par l'utilisateur ainsi que leur orientation et nombre par prise dans la <b>BDD</b>.</p> 
+        
+        <p class="particular-text">J'ai aussi fait du <b>AJAX</b> grâce à <b>JQuery</b> une librairie de JavaScript.</p>
+        <!-- <br> -->
+        <p class="particular-text">Le code <b>AJAX</b> me permettait d'enregistrer la saisie de l'utilisateur car les données récupéré par JavaScript ne peuvent seulement se transmettre de cette manière. Il était utilisé pour le SVG car il n'était pas possible d'en faire un formulaire.</p>
+    </div>
+    <div id="compCSS">
+        <h3 id="evolveCSS">Quelques compétences en CSS</h3>
+        <p class="global-text">Tous les exemples présent ici ont été agencés grâce à du <b>CSS</b> qui a principalement été, de la coloration d'éléments ou de la décoration. 
+            <br>Mais pour le positionnement, j'ai utilisé les <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/3298561-faites-votre-mise-en-page-avec-flexbox">flexbox</a>.
+            <br>Enfin, ce site à lui aussi été créé grâce aux mêmes procédés.
+        </p>
+    </div>
+    <div id="ensomme">
+        <h3 id="conclusion">Conclusion</h3>
+        <p class="global-text">
+            En somme, ce stage fut très instructif sur les divers procédés de création d'un site web, ainsi que sur ce que je ne connaissais pas encore, tel que le JavaScript ou le SVG.
+            <br>Il m'a permis de m'améliorer dans les types de codage que j'utilisais déjà, et m'a permis de les réutiliser dans un cadre différent.
+            Et ce que l'on remarque surtout, c'est la complémentarité de tout ces systèmes de code.
+        </p>
+    </div>
 </body>
 </html>
