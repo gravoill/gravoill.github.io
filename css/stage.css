@@ -4,12 +4,6 @@ h3{
     margin: 2%;
 }
 
-#sommaire{
-    color: royalblue;
-    margin-left: 10px;
-    text-decoration: underline;
-}
-
 .global-text{
     text-align: center;
     margin-bottom: 4%;
@@ -19,24 +13,6 @@ h3{
     width: 100%;
     /* margin: 0px auto 40px auto; */
     position: sticky;
-}
-div ul{
-    margin: 2%;
-    margin-top: 1%;
-}
-
-div ul li, div ul li a{
-    color: royalblue;
-    width: 30%; /* 100% divisé par le nombre d'éléments de menu */
-    text-align: left; /*Centre le texte dans les éléments de menu*/
-}
-
-div ul li:hover, div ul li a:hover{ /* Lorsque l'on passe notre curseur au-dessus de l'élément celui-ci prend les propriétés définies ci-dessous */
-    color: gold;
-}
-
-div ul li:active, div ul li a:active{ /*Lorsque l'on click sur l'élément, sa couleur passe à green */
-    color: green;
 }
 
 /* CSS pour la partie présentation de l'entreprise*/

@@ -1,0 +1,35 @@
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 2%;
+}
+
+#div_list_veille {
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div ul{
+    list-style: none;
+}
+
+div ul li, div ul li a{
+    color: rgb(95, 129, 240);
+    width: 100%; /* 100% divisé par le nombre d'éléments de menu */
+    margin: 2%;
+    text-align: center; /*Centre le texte dans les éléments de menu*/
+}
+
+div ul li:hover, div ul li a:hover{ /* Lorsque l'on passe notre curseur au-dessus de l'élément celui-ci prend les propriétés définies ci-dessous */
+    color: gold;
+}
+
+div ul li:active, div ul li a:active{ /*Lorsque l'on click sur l'élément, sa couleur passe à green */
+    color: green;
+}

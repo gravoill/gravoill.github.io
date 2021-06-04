@@ -1,0 +1,121 @@
+#sommaire_ppe{
+    width: 100%;
+    /* margin: 0px auto 40px auto; */
+    position: sticky;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 2%;
+}
+
+br{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.global-text{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.particular-text {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.ppe4-text {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* CSS ppe3*/
+
+/* images ppe 3 */
+
+#ppe3_img_mcd{ /* image ppe 3 mcd*/
+    height: 80%;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#ppe3_img_diagrammeCU { /* image ppe 3 diagramme CU */
+    height: 70%;
+    width: 70%;
+}
+
+#ppe3_img_schema_nav { /* image ppe 3 schema nav */
+    height: 80%;
+    width: 80%;
+}
+
+#img_formulaire { /* img formulaire */
+    height: 80%;
+    width: 80%;
+}
+
+#img_insertionD {
+    height: 80%;
+    width: 80%;
+}
+
+#img_verif {
+    height: 60%;
+    width: 60%;
+}
+
+#img_tb_stocks_num, #img_tb_stocks_med {
+    height: 95%;
+    width: 95%;
+}
+
+/* fin images ppe 3*/
+
+#ppe3_presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ppe3_schemas, #imgs_dvt, #div_tb_stocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ppe3_dvt, #ppe3_diagrammeCU, #ppe3_schema_nav,
+#div_formulaire, #div_insertionD, #div_verif,
+#tb_stocks_num, #tb_stocks_med {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* fin css ppe 3 */
+
+/* CSS pp4 */
+
+/* img ppe 4 */
+
+#ppe4_trello {
+    height: 90%;
+    width: 90%;
+}
+
+/* fin img ppe 4 */
+
+#ppe4 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#ppe4_presentation, #ppe4_mcd, #ppe4_analyseCC, #conclusion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+/* fin */

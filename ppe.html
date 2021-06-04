@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PPE</title>
     <link href="./css/header.css" rel="stylesheet">
+    <link href="./css/sommaire.css" rel="stylesheet">
+    <link href="./css/ppe.css" rel="stylesheet">
 
 </head>
 <body>
@@ -17,6 +19,114 @@
             <li><a href="./ppe.html">PPE</a></li>
             <li><a href="./veille.html">Veille Juridique</a></li>
         </ul>
-      </nav>
+    </nav>
+    <div id="sommaire_ppe">
+        <h3 id="sommaire">Sommaire :</h3>
+        <ul>
+            <li><a href="#ppe3">PPE 3</a></li>
+            <li><a href="#ppe4">PPE 4</a></li>
+        </ul>
+    </div>
+
+    <div id="ppe3">
+        <h2>PPE 3 : </h2>
+
+        <div id="ppe3_presentation">
+            <p class="global-text">
+                Ce projet a été créer pour que l'on puisse utiliser nos compétences en <b>html</b> et <b>css</b> ainsi qu'en <b>php</b>.
+                <br/>
+                Le sujet de ce projet, était lié à une entreprise pharmaceutique nommée LBC, fournissant des établissements du même milieu.
+                <br/>
+                Le projet était séparé en plusieurs modules, et un module correspondait à un groupe.
+                <br/>
+                Nous nous occupions du module <b>échantillons</b>. Cela a permit de nous montrer <b>l'intégration</b> des différents modules entre eux.
+                <br/>
+                L'image suivante, présente le MCD complet, avec intégration des différents modules.
+            </p>
+            <img id="ppe3_img_mcd" src="./images/ppe3/LBC mcd.jpg" />
+        </div>
+        <div id="ppe3_analyseCC">
+            <p class="global-text">
+                L'analyse du cahier des charges, nous a permit d'établir les schémas suivant :
+                <br/>
+                ( j'ai fais chacun de ces schémas )
+            </p>
+            <div id="ppe3_schemas">
+                <div id="ppe3_diagrammeCU">
+                    <img id="ppe3_img_diagrammeCU" src="./images/ppe3/diagramme de cas d'utilisation.PNG"/>
+                    <p class="particular-text">Ceci est le diagramme de cas d'utilisation</p>
+                </div>
+                <div id="ppe3_schema_nav">
+                    <img id="ppe3_img_schema_nav" src="./images/ppe3/schéma d'utilisation.PNG" />
+                    <p class="particular-text">Cette image représente le schéma de navigation du module</p>
+                </div>
+            </div>
+        </div>
+        <div id="ppe3_dvt">
+            <p class="global-text">
+                J'ai développé les pages permettant de créer un nouveau stocks de médicaments et permettant d'afficher ces stocks.
+            </p>
+
+            <div id="imgs_dvt">
+                <div id="div_formulaire">
+                    <img id="img_formulaire" src="./images/ppe3/formulairePHP.PNG"/>
+                    <p class="particular-text">Formulaire d'insertion de données</p>
+                </div>
+                <div id="div_insertionD">
+                    <img id="img_insertionD" src="./images/ppe3/insertionDonnees.PNG"/>
+                    <p class="particular-text">insertion des données</p>
+                </div>
+                <div id="div_verif">
+                    <img id="img_verif" src="./images/ppe3/verification.PNG"/>
+                    <p class="particular-text">Vérification dans la base de données</p>
+                </div>
+            </div>
+            <br/>
+            <p class="particular-text">
+                Enfin, la dernière page que j'ai développée, permettant de voir les stocks déjà initialisés, et de les triés par numéros de secteur ou par médicaments.
+            </p>
+            <div id="div_tb_stocks">
+                <div id="tb_stocks_num">
+                    <img id="img_tb_stocks_num" src="./images/ppe3/stocks_by_num.png" />
+                    <p class="particular-text">Affiche les stocks par numéros de secteur</p>
+                </div>
+                <div id="tb_stocks_med">
+                    <img id="img_tb_stocks_med" src="./images/ppe3/stocks_by_med.png" />
+                    <p class="particular-text">Affiche les stocks par médicaments</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ppe4">
+        <h2>PPE 4 : </h2>
+
+        <div id="ppe4_presentation">
+            <p class="ppe4-text">
+                Ce projet a été créer pour utiliser nos compétences en <b>Android</b> et <b>Symfony</b>.
+                Le cas présent était désigné pour faire des réservations de bâteaux de loisirs ou professionnels, appartenant à la société TOBAT.
+                <br/>
+                Le but de ce projet était de nous faire utiliser une API pour communiquer entre l'android et l'application en Symfony.
+                Nous avons utilisé la méthode scrum pour organiser ce projet. 
+            </p>
+            <img id="ppe4_trello" src="./images/ppe4/trello_methode_scrum.png" />
+        </div>
+        <div id="ppe4_mcd">
+            <p class="ppe4-text">
+                Après analyse, nous avons établit le schéma de la base de données :
+            </p>
+            <img id="ppe4_img_mcd" src="./images/ppe4/ppe4 MCD.png"/>
+        </div>
+        <div id="ppe4_analyseCC">
+            <p class="ppe4-text">Pour mieux comprendre la fonction de chaque composant, j'ai fais un diagramme pour pouvoir mieux les visualiser : </p>
+            <img id="ppe4_diagramme" src="./images/ppe4/PPE4-Visite_diagramme.PNG" />
+        </div>
+
+        <div id="conclusion">
+            <p class="ppe4-text">
+                Malheureusement, avec le second confinement, le projet n'a pu être concrétisé dans son ensemble, et l'application API n'a pu être opérationnelle. 
+            </p>
+        </div>
+    </div>
 </body>
 </html>
