@@ -1,0 +1,64 @@
+.presentation_text {
+    text-align: center;
+    margin: 1%;
+}
+
+.div_info {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid darkgray;
+}
+
+#presentation {
+    background-color: dodgerblue;
+}
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+    margin: 1%;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+#experiences {
+    margin-bottom: 1%;
+}
+
+#parcour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: goldenrod;
+}
+
+#competences_dvt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: indigo;
+}
+
+.langs {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid darkgray;
+}
+
+.logo {
+    margin: 1%;
+    height: 100px;
+    width: 100px;
+}
+
+#languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
