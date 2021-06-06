@@ -14,7 +14,7 @@
     background-color: dodgerblue;
 }
 
-h4{
+h2, h4{
     text-align: center;
     text-decoration: underline;
     margin: 1%;
@@ -43,21 +43,27 @@ ul {
     background-color: indigo;
 }
 
-.langs {
-    margin: 5px;
+.langsp, .langs {
+    margin: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: 1px solid darkgray;
 }
 
+.drap {
+    /* margin: 1%; */
+    height: 150px;
+    width: 225px;
+}
+
 .logo {
-    margin: 1%;
+    /* margin: 1%; */
     height: 100px;
     width: 100px;
 }
 
-#languages {
+#languages, #langues {
     display: flex;
     flex-direction: row;
     justify-content: center;
